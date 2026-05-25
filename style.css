@@ -170,6 +170,19 @@ ul { list-style: none; }
 }
 .logo-leaf { font-size: 1.3rem; }
 
+.nav__logo-img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
+.nav__logo-img--footer {
+  height: 80px;
+  background: white;
+  border-radius: 12px;
+  padding: 6px 10px;
+}
+
 .nav__links {
   display: flex;
   align-items: center;
