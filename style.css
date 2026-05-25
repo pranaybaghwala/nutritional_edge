@@ -384,6 +384,27 @@ ul { list-style: none; }
   opacity: .6;
 }
 
+.hero__photo-caption {
+  text-align: center;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero__photo-caption strong {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: var(--green-900);
+}
+
+.hero__photo-caption span {
+  font-size: .82rem;
+  color: var(--green-700);
+  font-weight: 500;
+  letter-spacing: .04em;
+}
+
 .floating-badge {
   position: absolute;
   background: var(--white);
